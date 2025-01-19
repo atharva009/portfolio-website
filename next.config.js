@@ -10,16 +10,6 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: 'www.getlifegard.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'github-production-user-asset-6210df.s3.amazonaws.com',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
         hostname: 'i.postimg.cc',
         pathname: '/**',
       },
@@ -28,6 +18,16 @@ module.exports = {
         hostname: 'buttons-animations-kv.vercel.app',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'cdn3d.iconscout.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.peppyocean.com',
+        pathname: '/**',
+      }
     ],
   },
 };
