@@ -7,8 +7,8 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'expense tracker',
-      url: '',
-      repo: '',
+      url: 'https://expense-tracker-seven-omega.vercel.app/',
+      repo: 'https://github.com/atharva009/ether-rider',
       img: 'https://cdn3d.iconscout.com/3d/premium/thumb/online-expensive-report-3d-icon-download-in-png-blend-fbx-gltf-file-formats--expenses-tracker-neo-banking-pack-finance-icons-5727732.png',
       year: 2023,
       tags: ['React', 'Tailwind'],
