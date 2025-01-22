@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import { navbarSection } from "@/lib/content/navbar";
-import { author } from "@/lib/content/portfolio";
-import useWindowWidth from "@/lib/hooks/use-window-width";
-import { getBreakpointsWidth } from "@/lib/utils/helper";
+import { navbarSection } from '@/lib/content/navbar';
+import { author } from '@/lib/content/portfolio';
+import useWindowWidth from '@/lib/hooks/use-window-width';
+import { getBreakpointsWidth } from '@/lib/utils/helper';
 
-import { Button, DarkModeButton, Link as CLink, NavButton } from "@/components";
+import { Button, DarkModeButton, Link as CLink, NavButton } from '@/components';
 
-import { fadeIn, slideIn } from "@/styles/animations";
+import { fadeIn, slideIn } from '@/styles/animations';
 
-import { motion } from "framer-motion";
-import Link from "next/link";
-import { useEffect, useState } from "react";
+import { motion } from 'framer-motion';
+import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 const hideNavWhileScrolling = ({
-  id = "navbar",
+  id = 'navbar',
   offset = 100,
   when = true,
 }: {
@@ -22,12 +22,12 @@ const hideNavWhileScrolling = ({
   offset?: number;
   when: boolean;
 }) => {
-  if (typeof window === "undefined" || typeof document === "undefined") {
-    return;
+  if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return () => {}; // Return a no-op cleanup function during SSR
   }
 
   const nav = document.getElementById(id);
-  if (!nav) return;
+  if (!nav) return () => {};
 
   let prevScrollPos = window.pageYOffset;
 
@@ -35,15 +35,15 @@ const hideNavWhileScrolling = ({
     if (when) {
       const curScrollPos = window.pageYOffset;
       if (prevScrollPos < curScrollPos) nav.style.top = `-${offset}px`;
-      else nav.style.top = "0";
+      else nav.style.top = '0';
       prevScrollPos = curScrollPos;
     }
   };
 
-  window.addEventListener("scroll", handleScroll);
+  window.addEventListener('scroll', handleScroll);
 
   return () => {
-    window.removeEventListener("scroll", handleScroll);
+    window.removeEventListener('scroll', handleScroll);
   };
 };
 
@@ -59,7 +59,7 @@ const NavItem = ({ href, children, onClick, index, delay }: NavItemsProps) => {
   return (
     <motion.li
       className="group"
-      variants={slideIn({ delay: delay + index / 10, direction: "down" })}
+      variants={slideIn({ delay: delay + index / 10, direction: 'down' })}
       initial="hidden"
       animate="show"
     >
@@ -80,12 +80,12 @@ const Navbar = () => {
   const [navbarCollapsed, setNavbarCollapsed] = useState(false);
 
   const windowWidth = useWindowWidth();
-  const md = getBreakpointsWidth("md");
+  const md = getBreakpointsWidth('md');
   const ANIMATION_DELAY = windowWidth <= md ? 0 : 0.8;
 
   useEffect(() => {
     const cleanup = hideNavWhileScrolling({ when: !navbarCollapsed });
-    return () => cleanup?.();
+    return () => cleanup();
   }, [navbarCollapsed]);
 
   return (
@@ -134,7 +134,7 @@ const Navbar = () => {
                   sameTab={cta?.sameTab}
                   variants={slideIn({
                     delay: ANIMATION_DELAY + navLinks.length / 10,
-                    direction: "down",
+                    direction: 'down',
                   })}
                   initial="hidden"
                   animate="show"
@@ -146,7 +146,7 @@ const Navbar = () => {
                 onClick={() => setNavbarCollapsed(false)}
                 variants={slideIn({
                   delay: ANIMATION_DELAY + (navLinks.length + 1) / 10,
-                  direction: "down",
+                  direction: 'down',
                 })}
                 initial="hidden"
                 animate="show"

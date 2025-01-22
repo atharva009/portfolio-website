@@ -12,10 +12,10 @@ const initialState = {
   toggle: () => {
     return;
   },
-  enableDarkMode: (_: boolean) => {
+  enableDarkMode: () => {
     return;
   },
-  disableDarkMode: (_: boolean) => {
+  disableDarkMode: () => {
     return;
   },
 };
@@ -27,12 +27,22 @@ export default function ThemeProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(
-    typeof window !== 'undefined' &&
-      JSON.parse(localStorage.getItem('darkMode') || 'true')
-      ? true
-      : false
-  );
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+
+  useEffect(() => {
+    // Check for stored preference in the browser
+    if (typeof window !== 'undefined') {
+      const savedMode = localStorage.getItem('darkMode');
+      const isDark = savedMode ? JSON.parse(savedMode) : false;
+      setIsDarkMode(isDark);
+
+      if (isDark) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
+  }, []);
 
   const toggle = useCallback(() => {
     setIsDarkMode((prev) => !prev);
@@ -47,11 +57,13 @@ export default function ThemeProvider({
   }, []);
 
   useEffect(() => {
-    localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
-    if (isDarkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('darkMode', JSON.stringify(isDarkMode));
+      if (isDarkMode) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
     }
   }, [isDarkMode]);
 
