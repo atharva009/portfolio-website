@@ -1,7 +1,13 @@
+'use client';
 import { Button, ShowLottie } from '@/components';
 import { Layout } from '@/containers';
 
+import { useEffect } from 'react';
+
 const NotFound = () => {
+  useEffect(() => {
+  }, []);
+
   return (
     <Layout className="grid h-screen place-items-center">
       <div className="w-full max-w-xl text-center">
