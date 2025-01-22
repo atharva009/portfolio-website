@@ -21,7 +21,7 @@ export const author = {
 export const seoData = {
   title: 'Atharva Hankare',
   description:
-    'Atharva Hankare is a front-end developer who specializes in building (and occasionally designing) exceptional visual interfaces.',
+    'Atharva is a full-stack developer with expertise in building scalable, user-centric applications, combining robust backend systems with intuitive front-end interfaces to deliver impactful solutions.',
   author: author.name,
   image:
     'https://user-images.githubusercontent.com/68834718/217467445-0b0d2d63-f8ad-4702-8474-814eb2cbb3be.png',
