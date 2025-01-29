@@ -16,7 +16,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'etherrider',
-      url: '',
+      url: 'https://www.itm-conferences.org/articles/itmconf/abs/2022/04/itmconf_icacc2022_03023/itmconf_icacc2022_03023.html',
       repo: '',
       img: 'https://www.peppyocean.com/wp-content/uploads/2023/03/top-ridesharing-apps.png',
       year: 2023,

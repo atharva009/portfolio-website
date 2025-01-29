@@ -2,8 +2,8 @@ import { slideUp } from '.';
 import { Variants } from 'framer-motion';
 
 export const sectionVariants = slideUp({
-  delay: 0.5,
-  duration: 1.75,
+  delay: 0.2,
+  duration: 0.2,
   offset: 50,
 });
 
