@@ -15,7 +15,7 @@ const Hero = () => {
 
   const windowWidth = useWindowWidth();
   const md = getBreakpointsWidth('md');
-  const DEFAULT_ANIMATION_DELAY = windowWidth <= md ? 0.9 : 1.7;
+  const DEFAULT_ANIMATION_DELAY = windowWidth <= md ? 0.2 : 1;
 
   const getAnimationDelay = (i: number, increment = 0.15) =>
     DEFAULT_ANIMATION_DELAY + increment * i;
