@@ -84,7 +84,7 @@ const TasksList = ({ tasks }: { tasks: string[] }) => {
   return (
     <div>
       <ul className="space-y-2">
-        {displayedTasks.map((task, index) => (
+        {displayedTasks.map((task) => (
           <ListItem key={getId()}>{task}</ListItem>
         ))}
       </ul>

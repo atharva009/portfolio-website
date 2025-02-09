@@ -13,13 +13,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/fullstack.json',
       },
       points: [
-        'Designing and managing robust APIs and backend logic using Spring Boot with Hibernate',
-        'Building frontend using Next.js with TypeScript, TailwindCSS',
-        'Styling modern, responsive web applications using TailwindCSS and Material UI',
-        'Integrating and managing relational databases with SQL and ORM tools like Hibernate',
-        'Developing scalable and modular backend applications using Maven for project and dependency management',
-        'Deploying and managing cloud infrastructure on AWS for scalable application hosting and storage'
-      ],
+        'Designing and managing APIs and backend logic using Spring Boot with Hibernate, integrating relational databases effectively.',
+        'Developing scalable, responsive web applications using Next.js, TypeScript, TailwindCSS, and Material UI.'
+      ],      
       softwareSkills: [
         // iconify icons: https://icon-sets.iconify.design/
         { name: 'java', icon: 'devicon:java' },
@@ -45,10 +41,9 @@ export const skillsSection: SkillsSectionType = {
         dark: '/lotties/android.json',
       },
       points: [
-        'Building modern Android applications using Kotlin and Jetpack Compose for intuitive UI design and smooth user experiences.',
-        'Designing and prototyping UI/UX with Figma to create user-friendly and visually appealing interfaces',
-        'Developing and managing local databases with SQLite for lightweight and efficient data storage in Android applications',
-      ],
+        'Developing modern Android applications using Kotlin and Jetpack Compose, with intuitive UI and smooth user experiences.',
+        'Designing user-friendly interfaces with Figma and managing lightweight local storage with SQLite.'
+      ],      
       softwareSkills: [
         { name: 'android', icon: 'devicon:androidstudio' },
         { name: 'kotlin', icon: 'devicon:kotlin' },

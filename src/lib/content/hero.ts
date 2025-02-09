@@ -2,12 +2,12 @@ import { HeroSectionType } from '@/lib/types/sections';
 import { resumeFileName } from '@/lib/utils/config';
 
 export const heroSection: HeroSectionType = {
-  subtitle: 'Hi, my name is',
-  title: 'Atharva Hankare.',
-  tagline: 'Crafting Scalable Web & Cross-Platform Experiences',
+  subtitle: 'Hello, I’m',
+  title: 'Atharva Hankare',
+  tagline: 'I design and build scalable, intuitive web and mobile applications.',
   description:
-    "I'm a passionate Full-Stack Web Developer with hands-on experience in building robust and scalable web applications using React.js with TypeScript. I also have experience in backend development with Spring Boot, creating efficient and well-structured APIs. Currently, I’m diving deeper into cross-platform development by exploring Kotlin KMP to build seamless multi-platform applications and learning Jetpack Compose to design modern, intuitive Android UIs.",
-  specialText: 'Currently looking for Summer 2025 Internship / Co-op',
+    "I'm a driven Full-Stack Developer with expertise in building scalable and efficient applications. On the frontend, I harness Next.js and TypeScript to create modern, responsive user experiences. On the backend, I specialize in Spring Boot, developing secure APIs and integrating relational databases. I'm also expanding my skillset into cross-platform development with Kotlin Multiplatform and Jetpack Compose, enabling seamless and cohesive user experiences across Android and other platforms.",
+  specialText: 'Actively seeking Summer 2025 Internship / Co-op opportunities.',
   cta: {
     title: 'view resume',
     url: `/${resumeFileName}`,
