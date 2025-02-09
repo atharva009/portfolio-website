@@ -47,7 +47,7 @@ const Hero = () => {
           variants={slideUp({ delay: getAnimationDelay(2) })}
           initial="hidden"
           animate="show"
-          className="leading-[1.2] font-thin text-slate-700 dark:text-slate-300"
+          className="leading-[1.2] font-normal text-slate-700 dark:text-slate-300"
         >
           {tagline}
         </motion.h1>
