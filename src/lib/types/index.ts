@@ -14,14 +14,17 @@ export type CTAType = {
   sameTab?: boolean;
 };
 
-// env
-export type ExperienceType = {
+export type RoleType = {
   role: string;
-  company: string;
-  companyUrl: string;
   started: Date | string;
   upto: Date | 'present' | string;
   tasks: string[];
+};
+
+export type ExperienceType = {
+  company: string;
+  companyUrl: string;
+  roles: RoleType[];  // Updated to include multiple roles under a company
 };
 
 export type ProjectType = {
