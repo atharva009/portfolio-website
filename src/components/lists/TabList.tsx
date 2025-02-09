@@ -93,7 +93,7 @@ const TasksList = ({ tasks }: { tasks: string[] }) => {
           className="mt-3 text-sm text-accent float-right"
           onClick={() => setShowMore(!showMore)}
         >
-          {showMore ? 'Less' : 'More'}
+          {showMore ? 'less' : 'more'}
         </button>
       )}
     </div>
