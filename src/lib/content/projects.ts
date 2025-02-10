@@ -22,6 +22,15 @@ export const projectsSection: ProjectsSectionType = {
       year: 2023,
       tags: ['Solidity', 'Python'],
     },
+    {
+      id: getId(),
+      name: 'TBA',
+      url: '',
+      repo: '',
+      img: 'https://media.istockphoto.com/id/1467339432/video/retro-buffering-circular-loading-bar-rotating-on-black-background.jpg?s=640x640&k=20&c=jOF3pEBv3EaXlgPHoa8CsOwOIg9gBNEPrXztQ_PXidQ=',
+      year: 2023,
+      tags: ['TBA'],
+    },
     // * TODO: add projects here
   ],
 };

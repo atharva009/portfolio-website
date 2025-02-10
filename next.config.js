@@ -27,7 +27,12 @@ module.exports = {
         protocol: 'https',
         hostname: 'www.peppyocean.com',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'media.istockphoto.com',
+        pathname: '/**',
+      },
     ],
   },
 };
