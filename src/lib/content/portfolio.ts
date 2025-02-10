@@ -21,11 +21,11 @@ export const author = {
 export const seoData = {
   title: 'Atharva Hankare',
   description:
-    'Atharva is a full-stack developer with expertise in building scalable, user-centric applications, combining robust backend systems with intuitive front-end interfaces to deliver impactful solutions.',
+    'Atharva creates full-stack and Android apps using Spring Boot and Jetpack Compose—delivering scalability while bugs book a one-way trip to /dev/null.',
   author: author.name,
   image:
     '',
-  url: 'https://atharvahankare.netlify.app',
+  url: 'http://hankare.me/',
   keywords: [
     'Atharva',
     'Atharva Hankare',
