@@ -1,6 +1,4 @@
-# 🖥️ Atharva Hankare - Personal Portfolio
-
-🚀 **Welcome to my personal portfolio!**  
+# 🖥️ **Welcome to my personal portfolio!**  
 This is where I showcase my projects, skills, and experience as a **Full-Stack Developer & Android Enthusiast**.  
 Built with cutting-edge technologies, my portfolio is designed to be **scalable, fast, and user-friendly**.
 
