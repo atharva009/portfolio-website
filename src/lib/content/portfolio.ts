@@ -23,9 +23,8 @@ export const seoData = {
   description:
     'Atharva creates full-stack and Android apps using Spring Boot and Jetpack Compose—delivering scalability while bugs book a one-way trip to /dev/null.',
   author: author.name,
-  image:
-    '',
-  url: 'http://hankare.me/',
+  image: '',
+  url: 'https://hankare.me/',
   keywords: [
     'Atharva',
     'Atharva Hankare',
