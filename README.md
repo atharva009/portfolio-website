@@ -31,7 +31,7 @@ Built with cutting-edge technologies, my portfolio is designed to be **scalable,
 - 🔗 **Kotlin Multiplatform (KMP)** – Cross-platform development  
 
 ### **Deployment & DevOps**
-- ☁ **Vercel** – For seamless hosting  
+- ☁ **Netlify** – For seamless hosting  
 - ⚙ **Maven & CI/CD** – Automating builds  
 
 ---
