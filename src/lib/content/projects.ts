@@ -20,7 +20,7 @@ export const projectsSection: ProjectsSectionType = {
       repo: 'https://github.com/atharva009/mybostonhood',
       img: '/bostonhood.jpg',
       year: 2025,
-      tags: ['Java', 'JFreeChart', 'Algorithms', 'MVC Architecture', 'Data Visualization', 'Java Swing'],
+      tags: ['Java', 'JFreeChart', 'Algorithms', 'MVC Architecture', 'Java Swing'],
     },
     {
       id: getId(),
