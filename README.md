@@ -11,7 +11,7 @@ Built with cutting-edge technologies, my portfolio is designed to be **scalable,
 ✅ **Performance Optimized** – Fast, responsive, and mobile-friendly UI  
 ✅ **Dark Mode Support** – For night owls and code warriors 🌙  
 ✅ **Interactive UI** – Smooth animations with **Framer Motion**  
-✅ **Deployed on Vercel** – Always live and blazing fast  
+✅ **Deployed on Netlify** – Always live and blazing fast  
 
 ---
 
@@ -31,7 +31,7 @@ Built with cutting-edge technologies, my portfolio is designed to be **scalable,
 - 🔗 **Kotlin Multiplatform (KMP)** – Cross-platform development  
 
 ### **Deployment & DevOps**
-- ☁ **Vercel** – For seamless hosting  
+- ☁ **Netlify** – For seamless hosting  
 - ⚙ **Maven & CI/CD** – Automating builds  
 
 ---
