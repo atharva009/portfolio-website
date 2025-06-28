@@ -12,11 +12,12 @@ export const experienceSection: ExperienceSectionType = {
           started: 'Sep 2022',
           upto: 'Jun 2024',
           tasks: [
-            'Collaborated with cross-functional teams for a Fortune 500 insurance client to develop a secure ChatBot API using Spring Boot, Spring MVC, Spring Security, and OAuth2, implementing role-based access control and reducing query resolution time by 35%.',
-            'Analyzed and resolved inefficiencies in payment workflows using Cybersource API, implementing batch job solutions that increased payment token efficiency by 30% and reduced processing time by 25%, streamlining payment operations.',
-            'Developed high-performance RESTful APIs with Spring Boot, Spring Data JPA, and Hibernate, utilizing query optimization, caching, and asynchronous processing, reducing data retrieval time by 40% and validated reliability using JUnit tests.',
-            'Designed and implemented a dynamic React frontend integrated with a Spring Boot backend, managed with Maven and automated through Jenkins, leading to a 20% increase in user engagement and improved system efficiency.',
-            'Deployed microservices on AWS, utilizing AWS RDS for database management and S3 for secure file storage, improving system scalability and reliability.',
+            'Built a cloud-native premium engine with Java/Spring Boot, scaled to 3,000+ users using Redis and async processing.',
+            'Deployed a secure chatbot system with OAuth2, JWT, and RBAC, reducing resolution time by 15%.',
+            'Automated CI/CD pipelines with GitHub Actions & Jenkins for AWS ECS, improving release speed and reliability.',
+            'Managed cloud infrastructure on AWS (RDS, S3, Docker), improving system resilience and provisioning.',
+            'Designed real-time dashboards with React, WebSockets, and Chart.js, boosting engagement by 20%.',
+            'Improved transaction throughput by 25% via batch payment processing, reducing API overhead.'
           ],
         },
         {
@@ -24,10 +25,10 @@ export const experienceSection: ExperienceSectionType = {
           started: 'Jun 2022',
           upto: 'Sep 2022',
           tasks: [
-            'Led a high-performing team to develop and deliver a project, utilizing Spring Boot, Spring MVC, and React, while adhering to rigorous SDLC practices and ensuring on-time delivery.',
-            'Facilitated sprint planning and conducted code reviews, utilizing tools like JUnit for unit testing, ensuring high code quality, fostering team collaboration, and refining analytical skills.',
-            'Collaborated on performance optimization initiatives by implementing query optimization and caching mechanisms with Hibernate and Spring Data JPA, resulting in significant improvements in system efficiency.',
-            'Enhanced technical expertise during the training phase by mastering Spring Data JPA, Hibernate, and AWS, while fostering cross-functional communication, resulting in improved problem-solving capabilities and team synergy.',
+            'Built key features for an internal training system using React, Spring Boot & REST APIs, reducing turnaround by 20%.',
+            'Created an admin dashboard with React & Chart.js to track user progress and training analytics.',
+            'Worked in Agile teams with engineers and PMs to deliver features and refine product requirements.',
+            'Implemented RBAC security using Spring Security and JWT to manage access for learners, trainers, and admins.'
           ],
         },
       ],
