@@ -15,7 +15,7 @@ export const fadeIn = (delay = 0): Variants => ({
     opacity: 1,
     transition: {
       type: 'spring',
-      duration: 0.2,
+      duration: 1.25,
       delay,
     },
   },
@@ -74,7 +74,7 @@ export const slideIn = ({
 
 export const slideUp = ({
   delay = 0,
-  duration = 1,
+  duration = 1.25,
   offset = 20,
 }: {
   delay?: number;
@@ -101,8 +101,8 @@ export const slideUp = ({
 // * For sections
 
 export const sectionVariants = slideUp({
-  delay: 0.2,
-  duration: 0.2,
+  delay: 0.5,
+  duration: 1.75,
   offset: 50,
 });
 
