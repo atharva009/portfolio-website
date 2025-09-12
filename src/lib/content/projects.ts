@@ -8,7 +8,7 @@ export const projectsSection: ProjectsSectionType = {
       id: getId(),
       name: 'Boston311',
       url: '',
-      repo: 'https://github.com/atharva009/boston311',
+      repo: 'https://www.notion.so/atharva-hankare/Boston311-1c171b06b30a8091bfb2c110f72841b0',
       img: '/boston311.jpeg',
       year: 2025,
       tags: ['Java', 'Spring Boot', 'MySQL', 'Hibernate', 'JSP'],
@@ -17,7 +17,7 @@ export const projectsSection: ProjectsSectionType = {
       id: getId(),
       name: 'MyBostonHood',
       url: '',
-      repo: 'https://github.com/atharva009/mybostonhood',
+      repo: 'https://www.notion.so/atharva-hankare/MyBostonHood-1b371b06b30a81e796ebef7e320d932e',
       img: '/bostonhood.jpg',
       year: 2025,
       tags: ['Java', 'JFreeChart', 'Algorithms', 'MVC Architecture', 'Java Swing'],
@@ -25,7 +25,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'TripSync',
-      url: 'https://atharva-hankare.notion.site/TripSync-1b371b06b30a81fba3a2d89e6b44c42d',
+      url: 'https://www.notion.so/atharva-hankare/TripSync-1b371b06b30a81fba3a2d89e6b44c42d',
       repo: '',
       img: '/tripsync.png',
       year: 2024,
@@ -34,7 +34,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'GigCentral',
-      url: 'https://atharva-hankare.notion.site/Gig-Central-1b371b06b30a81229c5beecb52f7c3a2',
+      url: 'https://www.notion.so/atharva-hankare/Gig-Central-1b371b06b30a81229c5beecb52f7c3a2',
       repo: '',
       img: '/gigcentral.jpeg',
       year: 2023,
@@ -43,7 +43,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'etherrider',
-      url: 'https://www.itm-conferences.org/articles/itmconf/abs/2022/04/itmconf_icacc2022_03023/itmconf_icacc2022_03023.html',
+      url: 'https://www.notion.so/atharva-hankare/EtherRider-1c171b06b30a801fba02d027e566ead1',
       repo: '',
       img: '/etherrider.jpeg',
       year: 2022,
@@ -52,7 +52,7 @@ export const projectsSection: ProjectsSectionType = {
     {
       id: getId(),
       name: 'CoinWise',
-      url: 'https://expense-tracker-seven-omega.vercel.app/',
+      url: 'https://www.notion.so/atharva-hankare/CoinWise-1b371b06b30a815ba6dbe7bc4298ffe4',
       repo: '',
       img: '/coinwise.jpeg',
       year: 2022,
