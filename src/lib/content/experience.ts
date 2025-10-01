@@ -4,6 +4,21 @@ export const experienceSection: ExperienceSectionType = {
   title: "02. where i've worked",
   experiences: [
     {
+      company: 'Ribbon Communications',
+      companyUrl: 'https://ribboncommunications.com/',
+      roles: [
+        {
+          role: 'Software Engineer Co-Op',
+          started: 'Sep 2025',
+          upto: 'Present',
+          tasks: [
+            'Researching and developing Agentic AI systems in the AWS cloud, with a focus on scalable, autonomous, and intelligent architectures.',
+            'Automating Ribbon Cyber lab migration and enabling seamless replication and microservices deployment across AWS environments.'
+          ]
+        }
+      ]
+    },
+    {
       company: 'LTIMindtree',
       companyUrl: 'https://www.ltimindtree.com/',
       roles: [
