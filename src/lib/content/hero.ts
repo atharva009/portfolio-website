@@ -4,9 +4,9 @@ import { resumeFileName } from '@/lib/utils/config';
 export const heroSection: HeroSectionType = {
   subtitle: 'Hello, I’m',
   title: 'Atharva Hankare',
-  tagline: 'I design and build scalable, intuitive web and mobile applications.',
+  tagline: 'I build scalable, cloud-native apps and AI-driven products.',
   description:
-    "I'm a driven Full-Stack Developer with expertise in building scalable and efficient applications. On the frontend, I harness Next.js and TypeScript to create modern, responsive user experiences. On the backend, I specialize in Spring Boot, developing secure APIs and integrating relational databases. I'm also expanding my skillset into cross-platform development with Kotlin Multiplatform and Jetpack Compose, enabling seamless and cohesive user experiences across Android and other platforms.",
+    "I’m a Software Engineer crafting scalable backend systems, cloud-native apps, and intelligent AI solutions. From Spring Boot to AWS to Agentic AI, I love turning complex tech into impactful, future-ready platforms. Always exploring new tools and ideas, I aim to push boundaries and build systems that truly make a difference.",
   // specialText: 'Actively seeking Summer 2025 Internship / Co-op opportunities.',
   cta: {
     title: 'view resume',
