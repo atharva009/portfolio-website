@@ -22,6 +22,23 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
     },
     {
       id: getId(),
+      name: 'Alimento',
+      description: 'An AI-powered pantry, meal planning, and grocery automation iOS app built with SwiftUI.',
+      tasks:
+        "Designed and developed Alimento, a native iOS application that helps students manage pantry inventory, log cooked dishes, plan weekly meals, and generate grocery lists. Built using SwiftUI, SwiftData, and async/await, the app features a transactional inventory system, structured AI integrations with Gemini for meal suggestions and weekly planning, and an action-based AI assistant capable of safely executing tool-driven operations such as updating inventory and generating grocery lists. Implemented strict JSON validation, local-first persistence, accessibility support, and a modular MVVM architecture following Apple Human Interface Guidelines.",
+      url: 'https://www.notion.so/atharva-hankare/Alimento-30671b06b30a80e4a579eb0bcb4be284',
+      img: '/alimento.jpeg',
+      tags: [
+        'Swift',
+        'SwiftUI',
+        'SwiftData',
+        'Gemini AI',
+        'MVVM',
+        'iOS'
+      ],
+    },    
+    {
+      id: getId(),
       name: 'EverAfter',
       description: 'EverAfter is your AI-powered date planning companion that helps couples create, cherish, and discover unforgettable romantic experiences.',
       tasks:
@@ -34,7 +51,24 @@ const featuredProjectsSection: FeaturedProjectsSectionType = {
         'React Native',
         'MySQL'
       ],
-    }
+    },
+    {
+      id: getId(),
+      name: 'DeliDuty',
+      description: 'A native iOS shift scheduling app for deli management with automatic schedule generation, built with SwiftUI and SwiftData.',
+      tasks:
+        "Designed and developed DeliDuty, a native iOS application that automates employee shift scheduling for deli operations. Built using SwiftUI, SwiftData, and MVVM architecture, the app features an intelligent scheduling engine that generates weekly schedules while respecting complex business constraints including employee hour limits, manager-specific rules, minimum coverage requirements, and rest period enforcement. Implemented a constraint validation system, coverage analysis with real-time gap detection, fair hour distribution algorithms, and a comprehensive dashboard with analytics and export functionality. The app includes push notifications for shift reminders, haptic feedback, and follows Apple Human Interface Guidelines with a polished UI featuring animated components and accessibility support.",
+      url: 'https://www.notion.so/atharva-hankare/DeliDuty-30671b06b30a808d89dcea1c099eef94',
+      img: '/deliduty.jpeg',
+      tags: [
+        'Swift',
+        'SwiftUI',
+        'SwiftData',
+        'MVVM',
+        'iOS',
+        'Algorithms'
+      ],
+    },
   ],
 };
 
